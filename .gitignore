@@ -7,5 +7,4 @@ CMakeLists.txt.user
 .gradle
 .project
 *.iml
-add
 .vscode
