@@ -2,7 +2,7 @@
 #define LAUNCHER_H
 #include <jni.h>
 #include <string>
-
+#include <vector>
 
 struct JavaMethod
 {

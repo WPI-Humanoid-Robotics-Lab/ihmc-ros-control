@@ -54,9 +54,12 @@ namespace ihmc_ros_control
         bool addForceTorqueSensorToBuffer(std::string forceTorqueSensorName);
 
     protected:
+        // virtual bool initRequest(hardware_interface::RobotHW* robot_hw,
+        //                          ros::NodeHandle& root_nh, ros::NodeHandle& controller_nh,
+        //                          std::set<std::string>& claimed_resources) override;
         virtual bool initRequest(hardware_interface::RobotHW* robot_hw,
                                  ros::NodeHandle& root_nh, ros::NodeHandle& controller_nh,
-                                 std::set<std::string>& claimed_resources) override;
+                                 std::set<std::string>& claimed_resources);
 
 
     private:
