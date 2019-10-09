@@ -20,6 +20,7 @@ repositories {
   mavenCentral()
   maven {
       url  "http://dl.bintray.com/ihmcrobotics/maven-release"
+      url "https://github.com/rosjava/rosjava_mvn_repo/raw/master"
   }
 }
 
